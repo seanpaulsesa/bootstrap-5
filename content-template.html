@@ -104,14 +104,29 @@
         <h3 class="text-primary">Text Decoration</h3>
         <p>memberi dekorasi pada text</p>
 
-        <p>This text has a line underneath it.</p>
-        <p>This text has a line going through it.</p>
-        <a href="#">This link has its text decoration removed</a>
+        <p class="text-decoration-underline">This text has a line underneath it.</p>
+        <p class="decoration-line-through">This text has a line going through it.</p>
+        <a href="#" class="text-decoration-none">This link has its text decoration removed</a>
         <hr>
         <br>
 
         <!-- 7. membuat Blockquuote -->
         <h3 class="text-primary">Blockquote</h3>
+        <figure>
+            <blockquote class="blockquote">
+                <p>ini adalah hari kamis</p>
+            </blockquote>
+            <figure class="text-start">
+                <blockquote class="blackquote">
+                    <p>ini adalah hari kamis</p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                    dikutip dari <cite> Paulus Sesa </cite>
+                </figcaption>
+            </figure>
+        </figure>
+
+
         <p>Digunakan untuk menulis kutipan ataupun sejenisnya</p>
 
         <hr>
@@ -121,11 +136,12 @@
 
         <h3 class="text-primary">text-Truncate</h3>
         <p>Berfungsi untuk memangkas tulisan <b>Example : </b></p>
-
+        <p class="text-truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias placeat nam quo impedit architecto at quam aut voluptas officiis quasi dicta deserunt debitis, ab dolor!
+        </p>
         <h3 class="text-primary">Style & Unstyle</h3>
         <p>menghilangkan style <b>Example : </b></p>
 
-        <ul>
+        <ul class="list-unstyled">
             <li>Agus</li>
             <li>Adel</li>
             <li>Firman</li>
@@ -153,10 +169,10 @@
 
         <b>menjadi : </b>
         <p>beri class pada itemnya (list-inline-item)</p>
-        <ul>
-            <li>Agus</li>
-            <li>Adel</li>
-            <li>Firman</li>
+        <ul class="list-inline">
+            <li class="list-inline">Agus</li>
+            <li class="list-inline-item">Adel</li>
+            <li class="list-inline-item">Firman</li>
         </ul>
 
 

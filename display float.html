@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <title>Utilities Bootstrap 5</title>
+</head>
+
+<body style="height: 5000px;">
+    <div class="container m-5">
+
+        <h4 class="text-center">Utilities Bootstrap 5</h4>
+        <h2 class="text-center">Dispaly, Float And Position</h2>
+        <hr>
+
+
+        <!-- Lets Begin -->
+
+
+
+        <h3 class="text-primary">Display</h3>
+        <p>Bagaimana Perilaku dari Display..?</p>
+        <!-- Div & Span -> Pengelompokan -->
+
+        <span>Paul</span>
+        <span>Sesa</span>
+        <span class="bg-primary">Paulus Sesa Lorem ipsum dolor sit amet.</span>
+        <br>
+
+        <span class="bg-primary">Pace Koding Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae animi voluptates commodi tempora! Distinctio, excepturi.</span>
+        <span class="bg-success m-5">Pace Koding Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere reprehenderit sint ex, laborum blanditiis hic.</span>
+        <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio dignissimos incidunt voluptatibus tenetur inventore voluptatum.</span>
+
+        <!-- 
+        Popular Display : 
+        1. Inline
+        2. Block
+        3. inline-block
+        4. flex
+        5. Grid
+        6 . etc -->
+            <hr>
+            <div>Paulus</div>
+            <div>Sesa</div>
+
+            <div class="bg-success" style="width: 100px; height: 100px;">Pace Koding</div>
+
+
+         <hr>
+         <div class="d-inline-block bg-primary">Inline block</div>
+         <div class="d-inline-block bg-primary" style="width: 50px; height: 50px;">Example</div>
+       
+       
+        <div class="d-inline">Paulus</div>
+        <div class="d-inline">Sesa</div>
+        <span class="d-block">Sesa</span>
+        <span class="d-block">Sesa</span>
+         <!-- 1. Inline -->
+
+        <!-- Span Display = Inline -->
+        <!-- a. Inline tidak menambahkan baris ketika ditambahkan elment yang memiliki display inline di dekatnya. (Span) -->
+        <!-- b. lebar dan tingginya sesuai element didalamnya  -->
+        <!-- c. tinggi dan lebar tidak dapat di atur -->
+        <!-- d. margin & pading hanya mempengaruhi element secara horizontal tidak Vertical -->
+         
+        <!-- 2. Block -->
+        <!--Div Display = Block -->
+
+        <!-- a. menambahkan baris baru ketika ditambahkan element HTML yang memiliki display block -->
+        <!-- b. dapat di atur lebar dan tigginya, tapi jika tidak di atur secara default lebarnya akan memenuhi atau sesuai dengan element pembungkusnya -->
+
+        <!-- 3. Inline-Block -->
+        <!-- Display Inline-Block -->
+        <!-- a. Berperilaku seperti inline & Block -->
+
+        <!-- Merubah Display di bootstarp 5 -->
+        <h3 class="text-primary">Float</h3>
+        <p>Bagaimana Perilaku dari Float..?</p>
+
+        <!-- 4. Float -->
+        <!-- 1. Mangatur Posisi pada sebuah element. -->
+        <!-- 2. dipaksa berada di sebelah kanan atau kiri pada element pembungkusnya atau istilahnya mengambang. -->
+        <!-- 3. prilakunya berbeda dengan alignment. -->
+        <!-- 4. Clear fix -> membersihkan float -> collaps -->
+        <div class="width: 500px;" class="bg-secondary clearfix">
+            <div style="width: 100px; height: 100px;" class="bg-primary float-end">Element 1</div>
+            <div style="width: 100px; height: 100px;" class="bg-primary float-end">Element 2</div>
+            <div style="width: 100px; height: 100px;" class="bg-primary float-end">Element 3</div>
+        </div>
+       
+        <br>
+        <h3 class="text-primary">Position</h3>
+        <p>Bagaimana Perilaku dari Position..?</p>
+
+
+        <div class="bg-secondary" style="width: 500px; height: 500px">
+            <div style="width: 100px; height: 100px;" class="bg-primary">Element 1</div>
+            <div style="width: 100px; height: 100px;" class="bg-success">Element 2</div>
+            <div style="width: 100px; height: 100px;" class="bg-warning">Element 3</div>
+            
+        </div>
+        <!-- 5. Position -->
+
+        <!-- a. Static -->
+        <!-- b. Retalive -->
+        <!-- c. Absolute -->
+        <!-- d. Fixed -->
+    </div>
+
+    <!-- End Session -->
+    <!--Thank You -->
+
+
+
+
+
+
+    <!-- Bootstrap Javascript -->
+    <script src="js/bootstrap.js"></script>
+
+    <!-- Popper Javascript -->
+    <script src="js/popper.min.js"></script>
+</body>
+
+</html>
